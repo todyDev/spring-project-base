@@ -19,9 +19,10 @@
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
+		<beans:property name="order" value="1"></beans:property>
 	</beans:bean>
 	
-	<context:component-scan base-package="tody.spring.basePrj" />
+	<context:component-scan base-package="springPrj" />
 	
 	
 	
