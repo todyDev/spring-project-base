@@ -5,7 +5,7 @@
 
 ## 개발 환경
 
-모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
+현 프로젝트의 개발 환경입니다.
 
 ```sh
 jdk1.8.0_181
@@ -17,3 +17,19 @@ Spring FrameWork 3.2.3.RELEASE
 ```
 
 ## 업데이트 내역
+* 문서
+    * 추가: gitignore 적용
+    * 수정: README 문서 업데이트
+* 프로젝트 구조 변경 및 설정
+    * 수정: context, servlet 폴더 및 파일들의 resources폴더로 경로 이동
+    * 수정: web.xml의 context, servlet의 경로 수정
+    * 추가: index.jsp 추가 및 utf8 설정
+* Log4j 설정
+    * 수정: log4j.xml 수정
+* Interceptor 설정
+    * 추가: CommonInterceptor 클래스 추가
+    * 추가: interceptor-servlet xml 추가
+    * 수정: actions-servlet xml 수정
+    * 추가: TestController 클래스 추가
+    * 추가: jsonView bean 등록
+    
