@@ -32,4 +32,10 @@ Spring FrameWork 3.2.3.RELEASE
     * 수정: actions-servlet xml 수정
     * 추가: TestController 클래스 추가
     * 추가: jsonView bean 등록
+* Mybatis 연동
+	* 수정: pom.xml에 필요한 라이브러리 추가
+	* 추가: MySQL 연결(context-datasource.xml)
+	* 추가: Spring 연결(context-mapper.xml)
+	* 수정: log4j.xml 수정
+	* 추가: AbstractDAO class 추가
     
